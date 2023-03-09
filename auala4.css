@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.jogo-da-velha{
+    height: 400px;
+    width: 400px;
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.square {
+    background-color: black;
+    flex-grow: 1 1 100px;
+   
+
+}
+/* flex

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabeçalho-logo {
+    width: 100%;
+    height: 150px;
+    background-color: #FFC107;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo-header{
+    margin: 6px;
+}
+
+.cabeçalho-nav {
+    width: 100%;
+    height: 30px;
+    background-color: #FFA000;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 6px 5px 0px rgba(0, 0, 0, 0.87) inset;
+    -webkit-box-shadow: 10px 6px 5px 0px rgba(0, 0, 0, 0.87) inset;
+    -moz-box-shadow: 10px 6px 5px 0px rgba(0, 0, 0, 0.87) inset;
+}
+
+.div-nav{
+    display: flex;
+
+}
+
+
+.texto-nav {
+    font-family: 'Montserrat';
+    color: #FDFDFD;
+    text-decoration: none;
+    margin: 6px 50px;
+}
+
+.section-1{
+    width: 100%;
+    height: 638.18px;
+    margin-bottom: 70px
+    
+
+}
+
+.img-section-1{
+    width: 100%;
+    height: 638.18px
+}
+
+.texto-section-1{
+    font-family: 'Montserrat';
+    font-size: 70px;
+    width: 430px;
+    color: #ffffff;
+    margin:-474px 0 0 1034px ;
+    position: relative;
+    z-index: 10;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+.div-title-receitas {
+    display: flex;
+    margin: 40px 0px 80px 450px;
+}
+
+.title-receitas{
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    color: #FFA000;
+    text-align: center;
+}
+
+.section-receitas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px 55px 50px 30px;
+}
+
+
+.div-receitas-img{
+    Display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-receitas{
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+    margin: 0 10px 0 10px;
+    width: 80%;
+}
+
+.text-img-receitas{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    margin: 1rem 7rem 0.5rem 7rem;
+}
+
+.button-conferir{
+    font-family: 'Montserrat';
+    padding: 0 10px 0 10px;
+    background-color: #176902;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.section-comer-viver{
+    margin: 0 0 40px 0;
+}
+
+.img-comer-viver{
+    background-image: url('./imagens/image\ 2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 772px;
+}
+
+.titulo-comer-viver{
+    font-size: 4rem;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    margin: -588px 0px 0px 120px;
+    z-index: 10;
+    position: relative;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+.paragrafo-comer-viver{
+    display: flex;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    width: 400px;
+    margin: 45px 0 0 120px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+
+.div-footer{
+    display: flex;
+    background-color: #FFC107;
+    width: 100%;
+    height: 200px;
+}
+
+.logo-footer{
+    margin: 120px 20px 5px 20px;
+    padding: 8px;
+    width: auto;
+    height: 84px;
+    left: 10px;
+    top: 2415px;
+}
+
+.texto-footer{
+    margin: 150px 0 0 160px;
+    padding: 5px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
