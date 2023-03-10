@@ -1,0 +1,13 @@
+dar o nome-------------------->gid add.
+prepara o pacote-------------->
+destinatario------------------>
+envia o pacote---------------->
+
+segue de codigo
+
+gid add.
+git commit -m "primeiro comit" (versão)
+git remote add origin https://github.com/fabiolucio10/AulaGamaGit.git (para enviar o link de acesso git hub)
+git push --set-upstream origin master
+
+
